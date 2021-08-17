@@ -16,8 +16,8 @@ class SSLCertReNew(object):
         self.url = 'https://api.zerossl.com'
         #self.proxies = { 'http' : 'http://127.0.0.1:8080', 'https' : 'http://127.0.0.1:8080' } # for testing purposes with Burp
         self.proxies = None
-        self.apiKey = 'API_KEY_HERE' #https://app.zerossl.com/developer
-        self.certificateDomain = 'domain.com'
+        self.apiKey = 'b558cb8583a1faf12e50d304cd4796ca' #https://app.zerossl.com/developer
+        self.certificateDomain = 'fordevelop.iceiy.com'
         self.csr = self.createCsr()
         #run steps
         self.InitialRequest()
